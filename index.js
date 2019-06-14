@@ -1,6 +1,6 @@
 const baseURL = 'https://api.github.com';
-const user = '<YOUR_USERNAME>';
-const token = 'YOUR_TOKEN_HERE';
+const user = '<eburmester>';
+const token = '892d04d0358c3a2993742ea62456b0390e18d919';
  
 fetch('https://api.github.com/user/repos', {
   headers: {
@@ -32,4 +32,4 @@ function createIssue() {
 function getIssues() {
   //once an issue is submitted, fetch all open issues to see the issues you are creating
 }
-892d04d0358c3a2993742ea62456b0390e18d919 
+ 
